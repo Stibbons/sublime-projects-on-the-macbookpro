@@ -2,6 +2,14 @@
 	"folders":
 	[
 		{
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Projects/rust/rust-tutorial-french"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Projects/rust/rust-for-pythonists"
+		},
+		{
 			"file_exclude_patterns":
 			[
 				"*.dylib"
