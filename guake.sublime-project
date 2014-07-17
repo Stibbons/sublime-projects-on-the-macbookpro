@@ -1,0 +1,24 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"autom4te.cache"
+			],
+			"follow_symlinks": true,
+			"name": "Guake Terminal",
+			"path": "/Users/gaetan/Projects/guake"
+		},
+		{
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				"public/bower"
+			],
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Projects/guake-website",
+            "name": "Guake Website"
+		}
+	]
+}
