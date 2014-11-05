@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Projects/pyyaml"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Projects/libyaml"
+		}
+	]
+}
