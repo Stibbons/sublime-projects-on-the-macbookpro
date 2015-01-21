@@ -2,27 +2,6 @@
 	"folders":
 	[
 		{
-			"follow_symlinks": true,
-			"path": "/Users/gaetan/Projects/rust/rust-tutorial-french"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Users/gaetan/Projects/rust/rust-for-pythonists"
-		},
-		{
-			"file_exclude_patterns":
-			[
-				"*.dylib"
-			],
-			"folder_exclude_patterns":
-			[
-				"build",
-				"*.dSYM"
-			],
-			"follow_symlinks": true,
-			"path": "/Users/gaetan/Projects/rust/rust-urlparse"
-		},
-		{
 			"file_exclude_patterns":
 			[
 				"*.dylib"
@@ -36,41 +15,8 @@
 			"path": "/Users/gaetan/Projects/rust/rust-yaml"
 		},
 		{
-			"file_exclude_patterns":
-			[
-				"*.dylib"
-			],
-			"folder_exclude_patterns":
-			[
-				"build",
-				"*.dSYM"
-			],
-			"follow_symlinks": true,
-			"path": "/users/gaetan/projects/rust/rust-argparse"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Users/gaetan/Projects/rust/rust-datetime"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Users/gaetan/Projects/rust/rust"
-		},
-		{
 			"follow_symlinks": true,
 			"path": "/Users/gaetan/Projects/sublim-user-confg"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Users/gaetan/Projects/rust/rust-sdl"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Users/gaetan/Projects/rust/ctags"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Users/gaetan/Projects/rust-helloworld"
 		}
 	]
 }
