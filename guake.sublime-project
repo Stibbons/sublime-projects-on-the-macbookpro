@@ -17,8 +17,16 @@
 				"public/bower"
 			],
 			"follow_symlinks": true,
-			"path": "/Users/gaetan/Projects/guake-website",
-            "name": "Guake Website"
+			"name": "Guake Website",
+			"path": "/Users/gaetan/Projects/guake-website"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Projects/sublim-user-confg"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Projects/sublime-repo"
 		}
 	]
 }
