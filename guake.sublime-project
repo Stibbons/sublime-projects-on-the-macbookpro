@@ -27,6 +27,14 @@
 		{
 			"follow_symlinks": true,
 			"path": "/Users/gaetan/Projects/sublime-repo"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Projects/sublime-run-command"
 		}
 	]
 }
