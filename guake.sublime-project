@@ -35,6 +35,14 @@
 		{
 			"follow_symlinks": true,
 			"path": "/Users/gaetan/Projects/sublime-run-command"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/gaetan/Projects/sublime-text-unit-test-runner"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "."
 		}
 	]
 }
