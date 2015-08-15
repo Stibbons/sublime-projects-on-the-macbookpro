@@ -1,0 +1,78 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"python -u install/install.py"
+			],
+			"name": "Squirrel - Install and launch",
+			"shell": true,
+			"working_dir": "/Users/gaetan/Projects/Squirrel"
+		},
+		{
+			"cmd":
+			[
+				"source workdir/bin/activate && trial squirrel"
+			],
+			"name": "Squirrel - Unit test",
+			"shell": true,
+			"working_dir": "/Users/gaetan/Projects/Squirrel"
+		},
+		{
+			"cmd":
+			[
+				"make html"
+			],
+			"name": "Squirrel - Build documentation",
+			"shell": true,
+			"working_dir": "/Users/gaetan/Projects/Squirrel/doc"
+		},
+		{
+			"cmd":
+			[
+				"gulp build"
+			],
+			"name": "Squirrel - Build Frontend",
+			"shell": true,
+			"working_dir": "/Users/gaetan/Projects/Squirrel/frontend"
+		},
+		{
+			"cmd":
+			[
+				"gulp serve"
+			],
+			"name": "Squirrel - Serve Frontend",
+			"shell": true,
+			"working_dir": "/Users/gaetan/Projects/Squirrel/frontend"
+		},
+		{
+			"cmd":
+			[
+				"python -u install/install.py serve"
+			],
+			"name": "Squirrel - Developer Start",
+			"shell": true,
+			"working_dir": "/Users/gaetan/Projects/Squirrel"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "/Users/gaetan/Projects/Squirrel"
+		},
+		{
+			"path": "/Users/gaetan/Projects/Squirrel-private"
+		},
+		{
+			"path": "/Users/gaetan/Projects/heroku-buildpack-python-installer"
+		}
+	],
+	"settings":
+	{
+		"python_fiximports":
+		{
+			"autofix_on_save": true
+		}
+	}
+}
