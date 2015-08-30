@@ -49,9 +49,18 @@
 		{
 			"cmd":
 			[
-				"python -u install/install.py serve"
+				"python -u install/install.py serve:dev"
 			],
-			"name": "Squirrel - Developer Start",
+			"name": "Squirrel - Start Developer",
+			"shell": true,
+			"working_dir": "/Users/gaetan/Projects/Squirrel"
+		},
+		{
+			"cmd":
+			[
+				"python -u install/install.py serve:staging"
+			],
+			"name": "Squirrel - Start Prod",
 			"shell": true,
 			"working_dir": "/Users/gaetan/Projects/Squirrel"
 		}
@@ -66,6 +75,9 @@
 		},
 		{
 			"path": "/Users/gaetan/Projects/heroku-buildpack-python-installer"
+		},
+		{
+			"path": "/Users/gaetan/Projects/heroku-buildpack-multi-subdir"
 		}
 	],
 	"settings":
