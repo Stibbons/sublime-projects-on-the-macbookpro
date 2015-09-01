@@ -63,6 +63,12 @@
 			"name": "Squirrel - Start Prod",
 			"shell": true,
 			"working_dir": "/Users/gaetan/Projects/Squirrel"
+		},
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "python -u \"$file\""
 		}
 	],
 	"folders":
@@ -78,6 +84,9 @@
 		},
 		{
 			"path": "/Users/gaetan/Projects/heroku-buildpack-multi-subdir"
+		},
+		{
+			"path": "/Users/gaetan/Projects/heroku-buildpack-nodejs"
 		}
 	],
 	"settings":
