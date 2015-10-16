@@ -87,6 +87,9 @@
 		},
 		{
 			"path": "/Users/gaetan/Projects/heroku-buildpack-nodejs"
+		},
+		{
+			"path": "/Users/gaetan/Projects/heroku-buildpack-installer"
 		}
 	],
 	"settings":
