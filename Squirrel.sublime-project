@@ -90,6 +90,12 @@
 		},
 		{
 			"path": "/Users/gaetan/Projects/heroku-buildpack-installer"
+		},
+		{
+			"path": "/Users/gaetan/Applications"
+		},
+		{
+			"path": "/Users/gaetan/.oh-my-zsh"
 		}
 	],
 	"settings":
