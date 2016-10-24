@@ -5,22 +5,22 @@
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "Anaconda Python Builder",
 			"selector": "source.python",
-			"shell_cmd": "\"/Users/gaetan/Projects/txrwlock/venv3/bin/python\" -u \"$file\""
+			"shell_cmd": "\"/Users/gaetan/Projects/download-scripts/venv/bin/python\" -u \"$file\""
 		}
 	],
 	"folders":
 	[
 		{
-			"path": "/Users/gaetan/Projects/txrwlock"
+			"path": "/Users/gaetan/Projects/download-scripts"
 		}
 	],
 	"settings":
 	{
 		"anaconda": true,
-		"python_interpreter": "/Users/gaetan/Projects/txrwlock/venv3/bin/python",
 		"python_fiximports":
 		{
 			"autofix_on_save": true
-		}
+		},
+		"python_interpreter": "/Users/gaetan/Projects/download-scripts/venv/bin/python"
 	}
 }
