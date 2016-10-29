@@ -12,6 +12,15 @@
 	[
 		{
 			"path": "/Users/gaetan/Projects/spark/spark"
+		},
+		{
+			"path": "/Users/gaetan/Projects/jupyter_utils"
+		},
+		{
+			"path": "/Users/gaetan/Projects/python-project-bootstrap"
+		},
+		{
+			"path": "/Users/gaetan/Projects/python-library-cookiecutter"
 		}
 	]
 }

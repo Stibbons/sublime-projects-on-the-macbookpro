@@ -3,9 +3,16 @@
 	[
 		{
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Python Builder",
+			"selector": "source.python",
+			"working_dir": "/Users/gaetan/Projects/download-scripts/",
+			"shell_cmd": "\"/Users/gaetan/Projects/download-scripts/venv3/bin/python\" -u \"$file\""
+		},
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "Anaconda Python Builder",
 			"selector": "source.python",
-			"shell_cmd": "\"/Users/gaetan/Projects/download-scripts/venv/bin/python\" -u \"$file\""
+			"shell_cmd": "\"/Users/gaetan/Projects/download-scripts/venv3/bin/python\" -u \"$file\""
 		}
 	],
 	"folders":
@@ -21,6 +28,15 @@
 		{
 			"autofix_on_save": true
 		},
-		"python_interpreter": "/Users/gaetan/Projects/download-scripts/venv/bin/python"
+
+	    "settings": {
+	        "extra_paths":
+	        [
+	            "/Users/gaetan/Projects/download-scripts/venv3/lib/python3.5/",
+	            "/Users/gaetan/Projects/download-scripts/venv3/lib/python3.5/site-packages/"
+	        ]
+	    },
+
+		"python_interpreter": "/Users/gaetan/Projects/download-scripts/venv3/bin/python"
 	}
 }
